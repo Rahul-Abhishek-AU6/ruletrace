@@ -1,6 +1,6 @@
 # Handoff: 20261101-022403-developer-and-engineering-pain-points
 
-## Local release readiness complete — RuleTrace
+## Public release complete — RuleTrace
 
 Selected **RuleTrace**, a local Python/Git CLI that inventories coding-agent
 instruction files and turns their Git state, explicit imports, and
@@ -22,8 +22,10 @@ evidence. It requires no network, API key, paid service, or model execution.
   as `reports/demo-receipt.md` and `reports/demo-receipt.json`.
 - Added an MIT license, complete README, and truthful/reproducible terminal SVG.
   Recreate its scenario with `sh examples/make-demo.sh /tmp/ruletrace-demo`.
-- Prepared test, publication, and showcase reports. The local Git repository is
-  on `main`, with release commit `7435240`.
+- Prepared test, publication, and showcase reports.
+- Added `assets/ruletrace-concept.jpg`, an AI-generated **conceptual** workflow
+  illustration. The README explicitly distinguishes it from
+  `assets/ruletrace-demo.svg`, the truthful reproducible CLI demonstration.
 
 ### Build boundary
 
@@ -39,10 +41,11 @@ keep supported patterns/documented behavior explicit and configuration-driven.
 
 ### External publication status
 
-No remote repository was created and no Reddit post was drafted/submitted:
-this project's `external_actions.github` and `.reddit` remain `false`. When
-the user authorizes GitHub publishing, create `ruletrace`, add its origin, push
-`main`, verify the README visual renders, then prepare launch material.
+GitHub publication is complete at
+https://github.com/Rahul-Abhishek-AU6/ruletrace (public `main`, commit
+`876194c`). The GitHub-rendered README was checked after the push: it links to
+both the conceptual JPG and the reproducible terminal SVG. No Reddit post was
+created or submitted for this project.
 
-Next command after publication authorization:
+Next command for an explicitly authorized Reddit launch:
 `./forge resume /Users/rahul/Documents/Codes/Exttra/Claude-works/AI-Agents/github/projects/20261101-022403-developer-and-engineering-pain-points`
