@@ -6,6 +6,11 @@ RuleTrace inventories common agent instruction files, reports their Git state,
 follows only explicit `@relative/path` references, and produces a reviewable
 Markdown/JSON receipt. It never executes content from an instruction file.
 
+![Conceptual illustration of local instruction-file review](assets/ruletrace-concept.jpg)
+
+*Conceptual AI-generated illustration of the workflow. The reproducible terminal
+demo below is the actual RuleTrace CLI output.*
+
 ![Terminal demonstration](assets/ruletrace-demo.svg)
 
 ## Why
