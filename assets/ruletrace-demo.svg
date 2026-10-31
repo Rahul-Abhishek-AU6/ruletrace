@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430" role="img" aria-label="RuleTrace terminal demonstration">
+  <rect width="960" height="430" fill="#0d1117" rx="16"/>
+  <circle cx="34" cy="32" r="8" fill="#ff5f57"/><circle cx="58" cy="32" r="8" fill="#febc2e"/><circle cx="82" cy="32" r="8" fill="#28c840"/>
+  <text x="32" y="78" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20">$ python3 ruletrace.py scan /tmp/ruletrace-demo --json receipt.json</text>
+  <text x="32" y="120" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="24"># RuleTrace receipt</text>
+  <text x="32" y="160" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19">Instruction files: 3   Review flags: 2   High-severity flags: 0</text>
+  <text x="32" y="210" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">Path                                  Git state</text>
+  <text x="32" y="244" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">AGENTS.md                             untracked</text>
+  <text x="32" y="278" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">.github/copilot-instructions.md       tracked-clean</text>
+  <text x="32" y="330" fill="#d29922" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">review / git-state — AGENTS.md — untracked</text>
+  <text x="32" y="364" fill="#d29922" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">review / network-command — AGENTS.md:8 — curl https://…</text>
+  <text x="32" y="404" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">Static review only: no instructions are executed.</text>
+</svg>

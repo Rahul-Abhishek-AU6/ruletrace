@@ -1,0 +1,43 @@
+{
+  "tool": "ruletrace",
+  "version": 1,
+  "root": "/private/var/folders/dq/z_6bcjhs1094_w81xqnxx75r0000gn/T/tmp.t99dTzIJFl/ruletrace-demo",
+  "files": [
+    {
+      "path": ".github/copilot-instructions.md",
+      "git_state": "tracked-clean",
+      "imports": []
+    },
+    {
+      "path": "AGENTS.md",
+      "git_state": "untracked",
+      "imports": []
+    },
+    {
+      "path": "CLAUDE.md",
+      "git_state": "tracked-clean",
+      "imports": []
+    }
+  ],
+  "flags": [
+    {
+      "severity": "review",
+      "category": "git-state",
+      "path": "AGENTS.md",
+      "line": null,
+      "detail": "untracked"
+    },
+    {
+      "severity": "review",
+      "category": "network-command",
+      "path": "AGENTS.md",
+      "line": 1,
+      "detail": "Review network command: curl https://example.invalid"
+    }
+  ],
+  "summary": {
+    "files": 3,
+    "flags": 2,
+    "high": 0
+  }
+}
