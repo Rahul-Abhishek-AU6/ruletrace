@@ -1,6 +1,6 @@
 # Handoff: 20261101-022403-developer-and-engineering-pain-points
 
-## Research complete — RuleTrace
+## Local release readiness complete — RuleTrace
 
 Selected **RuleTrace**, a local Python/Git CLI that inventories coding-agent
 instruction files and turns their Git state, explicit imports, and
@@ -11,6 +11,19 @@ The project is deliberately distinct from prior factory outputs: it addresses
 the trust/drift surface of `AGENTS.md`, `CLAUDE.md`, Copilot/Cursor rules, and
 other agent instructions rather than diff scope, test impact, or generic PR
 evidence. It requires no network, API key, paid service, or model execution.
+
+### Completed local work
+
+- Planned and implemented `ruletrace.py`, a Python-standard-library CLI.
+- Added fixture-based tests covering detection, Git state, imports (missing,
+  escaping, cyclic), strict mode, and non-execution of referenced commands.
+- Passed `python3 -m unittest discover -s tests -v`: **3/3 tests passing**.
+- Ran a disposable local-Git smoke fixture and saved its Markdown/JSON receipt
+  as `reports/demo-receipt.md` and `reports/demo-receipt.json`.
+- Added an MIT license, complete README, and truthful/reproducible terminal SVG.
+  Recreate its scenario with `sh examples/make-demo.sh /tmp/ruletrace-demo`.
+- Prepared test, publication, and showcase reports. The local Git repository is
+  on `main`, with release commit `7435240`.
 
 ### Build boundary
 
@@ -24,4 +37,12 @@ evidence. It requires no network, API key, paid service, or model execution.
 Instruction-file conventions and precedence differ by harness; the build must
 keep supported patterns/documented behavior explicit and configuration-driven.
 
-Next command: `./forge resume /Users/rahul/Documents/Codes/Exttra/Claude-works/AI-Agents/github/projects/20261101-022403-developer-and-engineering-pain-points`
+### External publication status
+
+No remote repository was created and no Reddit post was drafted/submitted:
+this project's `external_actions.github` and `.reddit` remain `false`. When
+the user authorizes GitHub publishing, create `ruletrace`, add its origin, push
+`main`, verify the README visual renders, then prepare launch material.
+
+Next command after publication authorization:
+`./forge resume /Users/rahul/Documents/Codes/Exttra/Claude-works/AI-Agents/github/projects/20261101-022403-developer-and-engineering-pain-points`
