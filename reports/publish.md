@@ -9,6 +9,7 @@
 - [x] Truthful README-linked terminal demo asset present
 - [x] No secrets, API keys, package lockfiles, or generated credentials found
 - [x] Local Git repository initialized on `main` with committed release files
+- [x] Generated pipeline prompts/logs and Python cache excluded from the public tree
 
 ## Intended public repository metadata
 
